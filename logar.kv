@@ -1,0 +1,55 @@
+#:kivy 1.10.1
+
+<Tela>: #classe que implementa o Widget
+
+    cols: 2
+    rows: 3
+    row_force_default: True
+    row_default_height: 50
+
+    Label:
+        font_size: 12
+        #center_x: 100
+        #top: 620
+        text: "User Name:"
+
+
+    TextInput:
+        id: username
+        #center_x: 200
+        #top: 660
+        height: 30
+        width: 100
+        multline: False
+
+
+    Label:
+        font_size: 12
+        #center_x: 100
+        #top: 570
+        text: "PassWord:"
+
+
+    TextInput:
+        id: password
+        #center_x: 200
+        #top: 610
+        height: 30
+        width: 100
+        multline: False
+
+
+    Button:
+        id: f_but # Referencing Widgets. Its a weak ref scope limited to the rule it is declared.
+        #center_x: 100
+        #top: 450
+        text: "Go"
+
+    TextInput:
+        #center_x: 250
+        #top: 450
+        text: f_but.state # Utilizando os atributos do botão f_but
+
+
+
+
