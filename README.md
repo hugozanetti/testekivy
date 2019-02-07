@@ -1,2 +1,3 @@
-# testekivy
-Teste para integrar controle de versão Git no Eric6.
+# Aprendendo Markdown
+Mark *italic text* with one asterisk, **bold text** with two.
+For ``monospaced text``, use two "backquotes" instead.
